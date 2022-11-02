@@ -1,0 +1,54 @@
+h1{
+    animation-name: gay;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.hijo{
+    border: 2px solid black;
+    margin-top:5px;
+    transition: box-shadow 1s;
+}
+
+.hijo:hover{
+    box-shadow: black 2px 2px;
+}
+
+.boton{
+    background-color: lightblue;    
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.boton:hover{
+    background-color: black;
+    color:white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li{
+    margin-left:10px;    
+}
+
+.padre-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes gay{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
